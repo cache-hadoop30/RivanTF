@@ -1,4 +1,4 @@
-autowifi-jsn.py
+# autowifi-jsn.py
 
   import json
 from netmiko import ConnectHandler
@@ -30,6 +30,8 @@ conn.disconnect()
 
 open('show_run_output.txt', 'w').write(output)
 print("\n✅ Configuration completed!")
+
+
 import json
 from netmiko import ConnectHandler
 
@@ -89,7 +91,7 @@ with open('show_run_output.txt', 'w') as f:
 print("\n Configuration completed successfully!")
 
 
-  autowififi-tf.py
+ # autowififi-tf.py
   import json
 from netmiko import ConnectHandler
 
