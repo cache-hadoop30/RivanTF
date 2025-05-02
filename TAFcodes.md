@@ -1,5 +1,7 @@
 # autowifi-json.py
 
+
+```python
 import json
 from netmiko import ConnectHandler
 
@@ -33,10 +35,12 @@ with open('show_run_output.txt', 'w') as f:
     f.write(output)
 
 print("\n✅ Configuration completed!")
+```
 
 
 
 # autowifi-enhanced.py
+```python
 import json
 from netmiko import ConnectHandler
 
@@ -88,10 +92,11 @@ with open('show_run_output.txt', 'w') as f:
     f.write(output)
 
 print("\n✅ Configuration completed successfully!")
-
+```
 
 
 # autowifi-yml.py
+```python
 import yaml
 from netmiko import ConnectHandler
 
@@ -130,10 +135,11 @@ with open('show_run_output.txt', 'w') as f:
     f.write(output)
 
 print("\n✅ Configuration completed successfully!")
-
+```
 
 
 # autoAP-jsn.json
+```python
 {
   "aironetInfo": {
     "device_type": "cisco_ios_telnet",
@@ -152,9 +158,10 @@ print("\n✅ Configuration completed successfully!")
     "encr_mod": "tkip"
   }
 }
-
+```        
 
 # autoAP.yml
+```python
 aironetInfo:
   device_type: cisco_ios_telnet
   host: 10.28.10.3
@@ -170,7 +177,7 @@ aironetConfig:
   wifi_pass: C1sc0123
   channel: "4"
   encr_mod: tkip
-
+```
 
 
 
